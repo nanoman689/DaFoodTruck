@@ -61,18 +61,33 @@ a:hover {
 
 /*  menu css */
 
-table {
-    width: 86%;
-    text-align: center;
-    margin: auto;
+.menu-items {
+	font-family: 'Source Serif Pro';
+	margin: auto;
+	width: 40%;
+	background: #d9b43a;
+	margin: auto;
+	border-radius: 0px 0px 10px 10px; 
+	
 }
 
-td {
-	font-family: 'Open Sans', serif;
+.menuDesc {
+	font-weight: 400;
 	font-size: 1em;
-	padding: 5px;
 }
 
+.menuPrice {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.break {
+	height: 10px;
+	border-spacing: 30px;
+}
+
+
+/*
 #price {
 	font-size:1.25em;
 	font-weight: 700;
@@ -88,6 +103,7 @@ td {
 	font-weight: 100;
 	text-align: left;
 }
+*/
 
 
 
