@@ -62,11 +62,32 @@ a:hover {
 /*  menu css */
 
 table {
-    width: 50%;
+    width: 86%;
+    text-align: center;
+    margin: auto;
 }
 
+td {
+	font-family: 'Open Sans', serif;
+	font-size: 1em;
+	padding: 5px;
+}
 
+#price {
+	font-size:1.25em;
+	font-weight: 700;
+}
 
+#item {
+	font-size: 1em;
+	font-weight:700;
+}
+
+#menudesc {
+	font-size: 1em;
+	font-weight: 100;
+	text-align: left;
+}
 
 
 
