@@ -1,4 +1,12 @@
 /* main body */
+/* set everything to zer0 */
+
+html, body, header {                                                                                                                                                                                                                     
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 
 body {
 	background:#dfd02c;
@@ -23,8 +31,8 @@ p {
 	font-family: 'Open Sans', serif;
 	font-weight: 700;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	display: inline;
 	text-decoration: none;
 	padding: .2em .5em;
@@ -39,6 +47,7 @@ p {
 	background-color: #b67f10;
 	padding-left: 0px;
 	width: 100%;
+	float:left;
 	border:none;
 	border-radius: 0px 0px 10px 10px;
 }
@@ -63,29 +72,67 @@ a:hover {
 
 .menu-items {
 	font-family: 'Source Serif Pro';
+	display:block;
 	margin: auto;
 	width: 40%;
 	background: #d9b43a;
-	margin: auto;
 	border-radius: 0px 0px 10px 10px; 
 	
 }
 
 .menuDesc {
+	text-align: left;
+	vertical-align: middle;
 	font-weight: 400;
 	font-size: 1em;
 }
 
 .menuPrice {
+	text-align: center;
+	vertical-align: middle;
 	font-weight: 700;
 	font-size: 2em;
 }
 
 .break {
+	text-align: center;
+	vertical-align: middle;
 	height: 10px;
 	border-spacing: 30px;
 }
 
+.menuSpecials {
+	font-family: 'Source Serif Pro';
+	display:block;
+	padding-top:5%;
+	text-align: center;
+	line-height:normal;
+	margin: auto;
+	width: 60%;
+	height: 60%;
+}
+
+.locationAddress {
+	font-family:  'Open Sans', serif;
+	display:block;
+	padding-top:5%;
+	text-align: center;
+}
+
+.phone {
+	font-family:  'Open Sans', serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	display:block;
+	text-align: center;
+}
+/* locations - google map */
+
+.googleMap {
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*
 #price {

@@ -5,7 +5,19 @@
 	<title>Da Sckool Bus-Contact</title>
 	<link rel="stylesheet" type="text/css" href="css/foodtruck.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCZB3BvO594QgffS-2dPY68sUy4nZtvU4Q"></script>
+	<script type="text/javascript">	
+	function initialize() 
+	{
+		var mapProp = {
+			center: new google.maps.LatLng(37.781175,-122.418653),
+			zoom:9,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+	var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 
 </head>
 
@@ -20,12 +32,12 @@
 		</ul>
 	</div>		
 	<div id="Locations Content">
-		<p> 1234 Anystreet<br>
+		<p class="locationAddress"> 1234 Anystreet<br>
 			Sometown, CA<br>
-			94445<br>
+			94445<br></p>
 			
-			510.555.1212<br>
-			
+		<p class="phone">510.555.1212</p><br>
+		<div id="googleMap" style="width:500px;height:380px;"></div>
 		</p>
 	</div>
 
