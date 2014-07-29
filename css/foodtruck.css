@@ -13,6 +13,12 @@ body {
 	font-family: 'Open Sans', serif;
 	font-size: 22px:
 }
+/* front page image */
+
+.schoolBus {
+	margin: auto;
+    float: inherit;
+}
 
 /* paragraph text */
 
