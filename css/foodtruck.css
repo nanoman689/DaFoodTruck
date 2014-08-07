@@ -86,7 +86,25 @@ a:hover {
 	
 }
 
+/* Menu Specials */
+
+p.menuTopSpecials {
+	font-family: 'Source Serif Pro';
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px:
+}
+
+/* item listing */
+
+.item {
+	width: 100%;
+	text-align: left;
+}
+
 .menuDesc {
+	width: 100%;
 	text-align: left;
 	vertical-align: middle;
 	font-weight: 400;
@@ -94,20 +112,22 @@ a:hover {
 }
 
 .menuPrice {
-	text-align: center;
+	width: 100%;
+	text-align: left;
 	vertical-align: middle;
 	font-weight: 700;
 	font-size: 2em;
 }
 
 .break {
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
 	height: 10px;
 	border-spacing: 30px;
 }
 
 .menuSpecials {
+	width: 100%;
 	font-family: 'Source Serif Pro';
 	display:block;
 	padding-top:5%;
